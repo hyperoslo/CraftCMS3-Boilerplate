@@ -1,0 +1,8 @@
+/.env
+/.idea
+/vendor
+/node_modules
+.DS_Store
+/web/bundle.js
+/web/*.css
+/templates/images
