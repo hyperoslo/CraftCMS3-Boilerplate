@@ -67,7 +67,7 @@ module.exports = {
   },
   plugins: [
     new WriteFilePlugin(),
-    new CopyWebpackPlugin([{ from: './src/assets/images', to: '../templates/images' }]),
+    new CopyWebpackPlugin([{ from: './src/assets/images', to: '../web/images' }]),
     new MiniCssExtractPlugin({
       filename: "[name].css",
       chunkFilename: "[id].css"

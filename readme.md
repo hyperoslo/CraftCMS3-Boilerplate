@@ -90,7 +90,7 @@ If you only want to create the `bundle.js` and `main.css` files, you should run 
 
 #### Image Files
 
-Webpack is configured to move your image files inside `/src/assets/images` folder to `/templates/images` folder automatically.
+Webpack is configured to move your image files inside `/src/assets/images` folder to `/web/images` folder automatically.
 
 You can then include an image in a template as follows:
 
